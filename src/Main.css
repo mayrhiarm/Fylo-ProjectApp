@@ -1,0 +1,282 @@
+/* ******* Navbar Starts Here********* */
+
+.nav-bar {
+  background-color: #181e2a;
+}
+
+.nav-bar img {
+  height: 30px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* ******* Navbar Ends Here********* */
+
+/* ******* Main Starts Here********* */
+.main {
+  background-color: #181e2a;
+  color: white;
+  padding: 5%;
+  text-align: center;
+}
+.product {
+  width: 100%;
+}
+/* .logoo{
+float: left;
+} */
+.btn {
+  background-color: #2596be;
+  border-radius: 40px;
+  color: white;
+  margin-bottom: 100px;
+  border: none;
+  padding: 7px 50px;
+}
+.see {
+  color: rgb(37, 150, 190);
+}
+.see:hover {
+  color: white;
+}
+.arrow {
+  border-radius: 8px;
+  color: black;
+  background-color: #2596be;
+}
+.stay {
+  text-align: left;
+}
+
+.intro {
+  width: 100%;
+}
+.flex {
+  padding-bottom: 70px;
+}
+
+/* ******* Main Ends Here********* */
+
+/* ******* Section Starts Here********* */
+.section {
+  background-color: #181e2a;
+  color: white;
+  padding: 5%;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 170px;
+}
+.quote {
+  position: absolute;
+  top: 1%;
+  left: 6%;
+}
+.fylo {
+  text-align: left;
+  border: none;
+  padding: 20px;
+  background-color: #21293c;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.close {
+  padding-bottom: 50px;
+}
+.inner-fylo img {
+  border-radius: 100px;
+  /* width: 80px; */
+  margin-right: 20px;
+  height: 40px;
+}
+.inner-fylo {
+  display: flex;
+}
+
+.inner-fylo h2 {
+  margin: 0px;
+  font-size: large;
+}
+.inner-fylo p {
+  margin: 0px;
+  font-size: smaller;
+}
+
+.getearly {
+  background-color: #21293c;
+  width: 90%;
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  top: 80%;
+}
+
+.input {
+  width: 100%;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border: none;
+  padding-left: 10%;
+}
+.free {
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  background-color: #2596be;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ******* Section Ends Here********* */
+
+/* ******* Footer Starts Here********* */
+.footer {
+  background-color: #0c1524;
+  color: white;
+  padding: 5%;
+  text-align: left;
+  padding-top: 180px;
+}
+.images {
+  margin-left: 10px;
+}
+.images:hover {
+  background-color: #2596be;
+}
+
+.lorem {
+  display: flex;
+}
+.location {
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.phone {
+  display: flex;
+}
+.phonee {
+  height: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.example {
+  display: flex;
+}
+
+.email {
+  height: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.us {
+  margin-top: 30px;
+}
+.about {
+  margin-top: 30px;
+}
+.myimg {
+  text-align: center;
+  margin-top: 30px;
+}
+/* ******* Footer Ends Here********* */
+
+@media (min-width: 425px) {
+}
+
+@media (min-width: 768px) {
+  .flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+  .real {
+    display: flex;
+    justify-content: space-between;
+  }
+  .stayy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+  .product {
+    width: 100%;
+  }
+  .close {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-between; */
+  }
+  .getearly {
+    position: absolute;
+  }
+  .zz {
+    margin-right: 20px;
+  }
+  .won {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%; */
+    display: flex;
+  }
+
+  .input {
+    margin-right: 1%;
+    margin-bottom: 0%;
+  }
+  .free {
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    background-color: #2596be;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .grow {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1.5fr;
+    gap: 20px;
+    padding-top: 50px;
+  }
+
+  .about,
+  .us,
+  .myimg {
+    margin-top: 0px;
+  }
+
+  .firstdiv {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .phone p {
+    margin-top: 10px;
+  }
+  .example p {
+    margin-top: 10px;
+  }
+
+  .location {
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 993px) {
+  .me-auto {
+    margin-left: 70%;
+  }
+}
